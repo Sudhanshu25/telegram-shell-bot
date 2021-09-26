@@ -1,6 +1,6 @@
 import os
 
-TOKEN = os.environ.get("1091509567:AAH52jxTcGZZW-MHYpanWx-9UZeHcAX0Cug", '')
+TOKEN = os.environ.get("2005878834:AAHywIYrdYmuBeN1qNq94KtzE3BUAkZMYuc", '')
 
 ENABLED_USERS = os.environ.get("1070564114", '')
 ENABLED_USERS = set(int(e.strip()) for e in ENABLED_USERS.split(','))
